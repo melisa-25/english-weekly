@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly C1 & Business English Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge" id="week-badge">Loading...</div>
+      <h1>Weekly C1 & Corporate English Hub</h1>
+      <p class="subtitle">Automated Weekly Micro-Learning for Teaching & Corporate Mastery</p>
+      <p class="updated" id="updated-date"></p>
+    </header>
+
+    <main>
+      <!-- Section 1: Grammar Focus -->
+      <section class="card">
+        <h2>1. Grammar Accuracy Focus</h2>
+        <h3 id="grammar-title">...</h3>
+        <p id="grammar-explanation"></p>
+        <div class="example-box">
+          <strong>Corporate Example:</strong>
+          <p id="grammar-example"></p>
+        </div>
+      </section>
+
+      <!-- Section 2: Business Vocabulary -->
+      <section class="card">
+        <h2>2. Business & Tech Vocabulary (C1)</h2>
+        <div id="vocab-list" class="vocab-grid"></div>
+      </section>
+
+      <!-- Section 3: Speaking & Teaching Prompt -->
+      <section class="card">
+        <h2>3. Weekly Speaking & Classroom Prompt</h2>
+        <p id="speaking-prompt" class="prompt-text"></p>
+        <div class="tip-box">
+          <strong>Tip:</strong> Record yourself for 1–2 minutes answering this prompt using at least two of this week's vocabulary words.
+        </div>
+      </section>
+
+      <!-- Section 4: Interactive Quick Quiz -->
+      <section class="card">
+        <h2>4. Quick Accuracy Check</h2>
+        <p id="quiz-question"></p>
+        <div id="quiz-options" class="options-grid"></div>
+        <p id="quiz-feedback" class="feedback"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Auto-updated every Monday via GitHub Actions</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
