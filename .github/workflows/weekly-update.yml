@@ -1,0 +1,33 @@
+name: Weekly English Topic Update
+
+on:
+  schedule:
+    # Otomatis berjalan setiap Senin jam 08:00 pagi waktu Taiwan (00:00 UTC)
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-topic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run weekly rotation script
+        run: python update_topic.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add topics.json
+          git commit -m "Auto-update: Weekly English topic" || exit 0
+          git push
