@@ -1,0 +1,65 @@
+[
+  {
+    "week": 1,
+    "category": "Grammar & Business Vocabulary",
+    "grammar": {
+      "title": "Subject–Verb Agreement with Long Subjects",
+      "explanation": "Ignore prepositional phrases (of, along with, in addition to) between the head noun and the verb. Match the verb strictly to the main head noun.",
+      "example": "The results of the latest semiconductor efficiency test are promising."
+    },
+    "vocabulary": [
+      { "word": "Adequate", "meaning": "Memadai / memenuhi standar minimum", "sentence": "The current bandwidth is adequate for daily emails, though not for large data transfers." },
+      { "word": "Allocate", "meaning": "Mengalokasikan dana atau sumber daya", "sentence": "Management decided to allocate 20% of the annual budget to R&D." },
+      { "word": "Consequently", "meaning": "Akibatnya / oleh karena itu (formal)", "sentence": "Raw material costs rose sharply; consequently, profit margins narrowed in Q3." }
+    ],
+    "speaking_prompt": "How would you explain a sudden project delay to an international client diplomatically without sounding defensive?",
+    "quiz": {
+      "question": "The primary objective of these newly introduced training modules ____ to enhance cross-cultural communication.",
+      "options": ["are", "is", "were", "have been"],
+      "answer_index": 1,
+      "rationale": "The head noun is 'objective' (singular), not 'modules'."
+    }
+  },
+  {
+    "week": 2,
+    "category": "Formal Conditionals & Compliance",
+    "grammar": {
+      "title": "Formal Conditional Inversion (Should / Were / Had)",
+      "explanation": "In formal corporate communication, omit 'if' and invert the auxiliary verb (Should, Were, Had) with the subject.",
+      "example": "Should you require further assistance, please contact the HR department."
+    },
+    "vocabulary": [
+      { "word": "Comply with", "meaning": "Mematuhi aturan atau standar", "sentence": "All suppliers must comply with international environmental regulations." },
+      { "word": "Reluctant", "meaning": "Enggan / ragu-ragu", "sentence": "Senior engineers were initially reluctant to adopt the new software interface." },
+      { "word": "Provided that", "meaning": "Asalkan / dengan syarat bahwa", "sentence": "The contract will be renewed provided that all performance metrics are met." }
+    ],
+    "speaking_prompt": "Describe a situation where you had to persuade a reluctant colleague or student to try a new method.",
+    "quiz": {
+      "question": "____ the company to expand overseas, it would need bilingual corporate trainers.",
+      "options": ["If", "Should", "Were", "Had"],
+      "answer_index": 2,
+      "rationale": "'Were + subject + to-infinitive' is the formal inversion for Second Conditional."
+    }
+  },
+  {
+    "week": 3,
+    "category": "Contrast Connectors & Retention",
+    "grammar": {
+      "title": "Conjunctions vs. Prepositions of Contrast",
+      "explanation": "Use 'Although / Even though' before a full clause (Subject + Verb). Use 'Despite / In spite of' before a noun phrase or gerund (-ing).",
+      "example": "Despite having sufficient funding, the project was delayed due to supply chain bottlenecks."
+    },
+    "vocabulary": [
+      { "word": "Sufficient", "meaning": "Cukup secara kuantitas atau bukti", "sentence": "We do not have sufficient evidence to justify a full product recall." },
+      { "word": "Retain", "meaning": "Mempertahankan (karyawan, klien, data)", "sentence": "Offering clear career progression is crucial to retain top-performing staff." },
+      { "word": "Nevertheless", "meaning": "Meskipun demikian / namun", "sentence": "The market forecast was pessimistic. Nevertheless, our division exceeded its target." }
+    ],
+    "speaking_prompt": "What strategies can tech companies use to retain top talent in a competitive industry?",
+    "quiz": {
+      "question": "____ the high cost of implementation, the board approved the new system.",
+      "options": ["Although", "Even though", "Despite", "Whereas"],
+      "answer_index": 2,
+      "rationale": "'The high cost of implementation' is a noun phrase, so it requires the preposition 'Despite'."
+    }
+  }
+]
